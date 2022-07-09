@@ -1,0 +1,43 @@
+.botonComprar{
+    color: #555;
+    background: transparent;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding: 7px 20px;
+    text-decoration: none ;
+    margin: 7px;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    transition:all 0.5s ease 0s;
+}
+.botonComprar:focus,
+.botonComprar:hover{
+    color: #fff;
+    background: #1B1B2B;
+}
+.botonComprar:before,
+.botonComprar:after{
+    content: '';
+    height: 100%;
+    width: 80%;
+    border: 2px solid #555;
+    border-right: none;
+    border-bottom: none;
+    position: absolute;
+    left: -7px;
+    top: -7px;
+    transition: all 0.2s ease-in, width 0.5s cubic-bezier(.45,-0.33,.43,1.46);
+}
+.botonComprar:after{
+    transform: rotate(180deg);
+    top: auto;
+    left: auto;
+    right: -7px;
+    bottom: -7px;
+}
+.botonComprar:hover:before,
+.botonComprar:hover:after{
+    width: 30%;
+}

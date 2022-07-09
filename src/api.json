@@ -1,0 +1,50 @@
+[
+    {
+    "id": 1,
+    "marca": "Specialized",
+    "precio": 1000,
+    "imagen": "../assets/images/cards/specialized-card.webp"
+    },
+    {
+    "id": 2,
+    "marca": "Trek",
+    "precio": 2000,
+    "imagen": "../assets/images/cards/trek-card.jpeg"
+    },
+    {
+    "id": 3,
+    "marca": "Commencal",
+    "precio": 3000,
+    "imagen": "../assets/images/cards/commencal-card.jpeg"
+    },
+    {
+    "id": 4,
+    "marca": "Pivot",
+    "precio": 4000,
+    "imagen": "../assets/images/cards/pivot-card.png"
+    },
+    {
+    "id": 5,
+    "marca": "Transition",
+    "precio": 5000,
+    "imagen": "../assets/images/cards/transition-card.jpeg"
+    },
+    {
+    "id": 6,
+    "marca": "Santa Cruz",
+    "precio": 6000,
+    "imagen": "../assets/images/cards/santacruz-card.jpeg"
+    },
+    {
+    "id": 7,
+    "marca": "YT Industries",
+    "precio": 7000,
+    "imagen": "../assets/images/cards/yt-card.png"
+    },
+    {
+    "id": 8,
+    "marca": "Canyon",
+    "precio": 8000,
+    "imagen": "../assets/images/cards/canyon-card.webp"
+    }
+]
